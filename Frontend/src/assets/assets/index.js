@@ -37,10 +37,21 @@ import solve from "./solve.svg"
 import payment from "./payment.png"
 import arrow from "./arrow.png"
 import solvevare from "./solvevare.png"
+import sr1 from "./sr1.webm"
+import people1 from "./people1.png"
+import ENC from "./encryption.webm"
+import locktop from "./LockTop.png"
+import lockmain from "./LockMain.png"
+import blackhole from "./blackhole.webm"
 
 export {
+  sr1,
+  lockmain,
+  locktop,
+  ENC,
   airbnb,
   bill,
+  blackhole,
   binance,
   card,
   coinbase,
@@ -66,6 +77,7 @@ export {
   payment,
   arrow,
   solve,
+  people1,
   graphicportfolio1,
   graphicportfolio10,
   graphicportfolio11,

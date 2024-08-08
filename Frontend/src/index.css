@@ -4,6 +4,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Additional custom styles */
+.container {
+  max-width: 1200px;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6; /* Customize as needed */
+}
+
+.bg-gray-200 {
+  background-color: #e5e7eb; /* Customize as needed */
+}
+
+.bg-white {
+  background-color: #ffffff; /* Customize as needed */
+}
+
+.text-gray-500 {
+  color: #6b7280; /* Customize as needed */
+}
+
+.text-gray-700 {
+  color: #374151; /* Customize as needed */
+}
+
+.text-blue-500 {
+  color: #3b82f6; /* Customize as needed */
+}
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -137,4 +166,18 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+@keyframes easeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-text {
+  animation: easeIn 1s ease-in forwards;
 }

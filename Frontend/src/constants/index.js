@@ -161,16 +161,16 @@ export const footerLinks = [
     title: "Contact",
     links: [
       {
-        name: "ali@solvevare.com",
+        name: "FOR MARKETING | Contact Ali",
         link: "mailto:ali@solvevare.com",
       },
       {
-        name: "sufyan@solvevare.com",
+        name: "FOR DEVELOPMENT | Contact Sufyan",
         link: "mailto:sufyan@solvevare.com",
       },
       {
-        name: "info@solvevare.com",
-        link: "mailto:info@solvevare.com"
+        name: "FOR ANY OTHER INQUIRY | Contact Solvevare",
+        link: "mailto:info@solvevare.com",
       },
     ],
   }

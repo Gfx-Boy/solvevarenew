@@ -1,5 +1,5 @@
 import styles from "../style";
-import { logo,logo2,solvevare} from "../assets/assets";
+import { solvevare } from "../assets/assets";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
@@ -8,11 +8,11 @@ const Footer = () => (
       <div className="flex-[1] flex flex-col justify-start mr-5">
         <img
           src={solvevare}
-          alt="hoobank"
+          alt="solvevare"
           className="w-[266px] h-[72.14px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Solutions from software, technologies and designs we provide for you
+          Solutions from software, technologies, and designs we provide for you.
         </p>
       </div>
 
@@ -30,7 +30,9 @@ const Footer = () => (
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
-                  {link.name}
+                  <a href={link.link} className="hover:underline">
+                    {link.name}
+                  </a>
                 </li>
               ))}
             </ul>

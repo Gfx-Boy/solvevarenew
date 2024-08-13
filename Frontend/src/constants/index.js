@@ -161,24 +161,16 @@ export const footerLinks = [
     title: "Contact",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "ali@solvevare.com",
+        link: "mailto:ali@solvevare.com",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "sufyan@solvevare.com",
+        link: "mailto:sufyan@solvevare.com",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "info@solvevare.com",
+        link: "mailto:info@solvevare.com"
       },
     ],
   }
@@ -188,17 +180,12 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.instagram.com/solvevare",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/solve-vare",
   },
 ];
 
